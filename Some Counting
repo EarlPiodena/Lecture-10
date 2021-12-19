@@ -1,0 +1,36 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+    cout << "For 0 to 50, increments by one" << endl;
+    for (int a = 0; a <= 50; a++) 
+    {
+        cout << x << endl;
+    }
+
+    cout << "\n" << "For 50 to 0, decrements by one" << endl;
+    for (int b = 50; b >= 0; b--) 
+    {
+        cout << b << endl;
+    }
+
+    cout << "\n" << "For 30 to 50, increments by one" << endl;
+    for (int c = 30; c <= 50; c++) 
+    {
+        cout << c << endl;
+    }
+
+    cout << "\n" << "For 50 to 10, decrement by one" << endl;
+    for (int d = 50; d >= 10; d = d - 2) 
+    {
+        cout << d << endl;
+    }
+
+    cout << "For 100 to 200, increments by five" << endl;
+    for (int e = 100; e <= 200; e = e + 5) 
+    {
+        cout << e << endl;
+    }
+}
